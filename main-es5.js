@@ -1490,7 +1490,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.http = http; //private baseUrl="http://localhost:52841";
 
-        this.baseUrl = "http://upstartserver.somee.com/";
+        this.baseUrl = "https://upstartserver.somee.com/";
       }
 
       _createClass(EntityService, [{

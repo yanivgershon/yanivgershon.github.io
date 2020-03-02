@@ -769,7 +769,7 @@ let EntityService = class EntityService {
     constructor(http) {
         this.http = http;
         //private baseUrl="http://localhost:52841";
-        this.baseUrl = "http://upstartserver.somee.com/";
+        this.baseUrl = "https://upstartserver.somee.com/";
     }
     Get() {
         return this.http.get(`${this.baseUrl}/api/entity/`);
